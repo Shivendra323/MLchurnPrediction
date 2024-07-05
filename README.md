@@ -54,6 +54,22 @@ The objective of this project is to predict the likelihood of customers' average
 - **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 - **Environment**: Jupyter Notebook
 
+## Code Snippet
+
+```python
+# Importing libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.simplefilter(action='ignore', category=UserWarning)
+```
+
 ## Conclusion
 
 This project delivers a robust machine learning model to predict customer churn for savings accounts. By identifying high-risk customers, the bank can take targeted actions to enhance customer retention and maintain account balances above the minimum requirement.
@@ -63,5 +79,5 @@ This project delivers a robust machine learning model to predict customer churn 
 For any queries or further information, please contact:
 
 **Name**: Shivendra Singh Thakur  
-**Email**: Shivendra323@gmail.com  
-**LinkedIn**: www.linkedin.com/in/shivendra-singh-thakur-09a36a1b0
+**Email**: [Shivendra323@gmail.com]  
+**LinkedIn**: [www.linkedin.com/in/shivendra-singh-thakur-09a36a1b0]
